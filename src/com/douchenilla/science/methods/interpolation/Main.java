@@ -34,8 +34,10 @@ public class Main {
         double[][] b = {{1, 100}, {1, 100}};
         plot.plotFit(inputValues);
         plot.loadFuncValues(a);
-        plot.loadFuncValues(c);
+        //plot.loadFuncValues(c);
         plot.loadPoints(inputValues);
+
+        System.out.println(spline2.getFunctionValue(-0.1));
 
     }
 }
